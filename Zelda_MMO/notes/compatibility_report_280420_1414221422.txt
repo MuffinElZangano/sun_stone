@@ -1,0 +1,56 @@
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\scripts\camera_for_one\camera_for_one.gml
+Converted builtin - line 15: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview=x-view_wview/2-10 -> __view_set( e__VW.XView, 0, x-view_wview/2-10 )
+Converted builtin - line 16: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 12: view_yview=y-view_hview/2-10 -> __view_set( e__VW.YView, 0, y-view_hview/2-10 )
+Converted builtin - line 15: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_wview=displaymanager.ideal_width/view_zoom -> __view_set( e__VW.WView, 0, displaymanager.ideal_width/view_zoom )
+Converted builtin - line 16: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 8: view_hview=displaymanager.ideal_height/view_zoom -> __view_set( e__VW.HView, 0, displaymanager.ideal_height/view_zoom )
+Converted builtin - line 15: view_xview=clamp(__view_get( e__VW.XView, 0 ),0,room_width-__view_get( e__VW.WView, 0 )) -> __view_set( e__VW.XView, 0, clamp(__view_get( e__VW.XView, 0 ),0,room_width-__view_get( e__VW.WView, 0 )) )
+Converted builtin - line 16: view_yview=clamp(__view_get( e__VW.YView, 0 ),0,room_height-__view_get( e__VW.HView, 0 )) -> __view_set( e__VW.YView, 0, clamp(__view_get( e__VW.YView, 0 ),0,room_height-__view_get( e__VW.HView, 0 )) )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\scripts\scr_player_idle\scr_player_idle.gml
+Converted string - line 25: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\scripts\scr_player_attack\scr_player_attack.gml
+Converted string - line 3: 'idle' -> "idle"
+
+Converting GML script: ${project_dir}\objects\obj_player\Create_0.gml
+Converted description /// @description Declare variables
+Converted string - line 12: 'idle' -> "idle"
+Converted string - line 24: 'X' -> "X"
+
+Converting GML script: ${project_dir}\objects\obj_player\Step_0.gml
+Converted description /// @description Declare input
+Converted string - line 28: 'idle' -> "idle"
+Converted string - line 29: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\objects\obj_player\Draw_0.gml
+Converted description /// @description Frame Drawing
+Converted string - line 10: 'attack' -> "attack"
+Converted string - line 21: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\objects\displaymanager\Create_0.gml
+Converted description /// @description Display Properties
+
+Converting GML script: ${project_dir}\objects\displaymanager\Alarm_1.gml
+Converted description /// @description Delayed Surface resize
+
+Converting GML script: ${project_dir}\objects\displaymanager\Alarm_0.gml
+Converted description /// @description Center window
+
+Converting GML script: ${project_dir}\objects\displaymanager\Step_0.gml
+Converted description /// @description Zoom window
+
+Game speed set to 30
+Added compatibility script 'view/room_set_view.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
