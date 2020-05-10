@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "72239ab4-e27a-4a65-944f-3061591ff64e",
+            "Value": {
+                "id": "08e5e8e8-9414-4afb-8a03-88f8fb9efc50",
+                "resourcePath": "scripts\\scr_sc_transmission_player_sprite\\scr_sc_transmission_player_sprite.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7329842e-a437-486e-b9bc-cd7be3908040",
             "Value": {
                 "id": "5f5f7561-982d-4f1b-9394-f0a5f24cfe65",
@@ -452,6 +460,7 @@
         "a8ac61e9-3b3a-4aba-8e45-5881f77b038e",
         "352f81f7-09fa-4592-9220-e76d228e2c4e",
         "278e621c-10cd-47b8-ab42-9cb9744fb1dd",
+        "72239ab4-e27a-4a65-944f-3061591ff64e",
         "03dca6a6-deab-4074-9d8c-09447a9a8864",
         "c0c1543c-f6bf-44c3-816a-948f7d3d2314",
         "7329842e-a437-486e-b9bc-cd7be3908040",

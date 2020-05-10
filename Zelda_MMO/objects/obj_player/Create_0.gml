@@ -24,7 +24,3 @@ _up     = vk_up;
 _right  = vk_right;
 _left   = vk_left;
 _attack = ord("X");
-
-//Camera
-view_zoom = 1;
-view_max_zoom = 3;

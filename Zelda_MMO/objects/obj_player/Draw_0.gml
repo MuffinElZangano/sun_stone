@@ -14,6 +14,7 @@ if(state=="attack"){
                 frame_size*y_frame,
                 frame_size,frame_size,x,y);
 }
+
 //Core sheet drawing
 draw_sprite_part(sprite,x_frame,floor(x_frame)*frame_size,
                 frame_size*y_frame,

@@ -1,4 +1,5 @@
 sprite = spr_hero_walk;
+scr_sc_transmission_player_sprite(false);
 if(_input_right || _input_left || _input_up || _input_down){
 inputDirection = point_direction(0,0,(_input_right-_input_left),(_input_down-_input_up));
 }
