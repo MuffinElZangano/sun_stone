@@ -12,7 +12,7 @@ if read
 	
 	if client()
 	{
-		var _network_id = buffer_read(buff, buffer_u16)
+		var _network_id = buffer_read(buffer, buffer_u16)
 		obj_player.network_id = _network_id
 	}
 	else

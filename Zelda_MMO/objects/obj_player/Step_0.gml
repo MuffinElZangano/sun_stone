@@ -23,6 +23,9 @@ if(animating){
     x_frame = anim_length;
 }
 
+scr_sc_transmission_player_xframe(false);
+scr_sc_transmission_player_yframe(false);
+
 ///State management
 switch(state){
     case "idle":    scr_player_idle(); break;

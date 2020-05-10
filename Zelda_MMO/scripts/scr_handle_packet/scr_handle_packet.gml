@@ -16,7 +16,7 @@ switch command
 		// Player sprite
 	case 3: scr_sc_transmission_player_sprite	(true, buff, socket) break;
 		// Player x_frame
-	//case 4: scr_sc_transmission_player_xframe	(true, buff, socket) break;
+	case 4: scr_sc_transmission_player_xframe	(true, buff, socket) break;
 		// Player y_frame
-	//case 5: scr_sc_transmission_player_yframe	(true, buff, socket) break;
+	case 5: scr_sc_transmission_player_yframe	(true, buff, socket) break;
 }
