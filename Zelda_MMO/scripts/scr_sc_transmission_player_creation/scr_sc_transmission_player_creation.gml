@@ -29,13 +29,7 @@ if read
 			{
 				scr_sc_transmission_player_creation(false, xx, yy, _socket2, socket)
 			}
-			else
-			{
-				buffer_seek(Buffer, buffer_seek_start, 0)
-				buffer_write(Buffer, buffer_u16, 2)
-				buffer_write(Buffer, buffer_u16, _socket2)
-				network_send_packet(socket, Buffer, buffer_tell(Buffer))
-			}
+			else scr_sc_tranmission_set_network_id(false, _socket2, socket)
 		}
 	}
 }

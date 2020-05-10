@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "7329842e-a437-486e-b9bc-cd7be3908040",
+            "Value": {
+                "id": "5f5f7561-982d-4f1b-9394-f0a5f24cfe65",
+                "resourcePath": "scripts\\scr_sc_tranmission_set_network_id\\scr_sc_tranmission_set_network_id.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7358c66a-4337-41f5-bf49-f17f1d6bd07b",
             "Value": {
                 "id": "116ec918-8e4a-4d10-bc25-a313545c3de2",
@@ -343,6 +351,14 @@
             }
         },
         {
+            "Key": "c0c1543c-f6bf-44c3-816a-948f7d3d2314",
+            "Value": {
+                "id": "0cbb08ac-bde7-4754-9546-a495978e9df1",
+                "resourcePath": "scripts\\scr_sc_transmission_player_movement\\scr_sc_transmission_player_movement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "9e7896f7-8f47-44ea-acd3-80a258adfb55",
@@ -437,6 +453,8 @@
         "352f81f7-09fa-4592-9220-e76d228e2c4e",
         "278e621c-10cd-47b8-ab42-9cb9744fb1dd",
         "03dca6a6-deab-4074-9d8c-09447a9a8864",
+        "c0c1543c-f6bf-44c3-816a-948f7d3d2314",
+        "7329842e-a437-486e-b9bc-cd7be3908040",
         "74115ffa-d7ad-4edf-bbd6-a83e570d3fc8",
         "3ec91ced-5e18-4d09-9a68-ab981fd51982",
         "2c0aa866-73a4-43ea-b1d7-adc353474be5"

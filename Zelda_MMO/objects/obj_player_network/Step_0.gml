@@ -10,10 +10,3 @@ if(animating){
 }else{
     x_frame = anim_length;
 }
-
-//Animate when...
-if(inputMagnitude!=0 || state="attack"){
-    animating = true;
-}else{
-    animating = false;
-}

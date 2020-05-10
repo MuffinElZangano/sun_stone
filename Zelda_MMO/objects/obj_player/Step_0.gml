@@ -29,15 +29,9 @@ switch(state){
     case "attack":  scr_player_attack(); break;
 }
 
-Collision_check(); 
+Collision_check();
 
 x+=moveX+knockX;
 y+=moveY+knockY;
 
-buffer_seek(Buffer, buffer_seek_start, 0)
-buffer_write(Buffer, buffer_u16, 1)
-buffer_write(Buffer, buffer_u16, x)
-buffer_write(Buffer, buffer_u16, y)
-buffer_write(Buffer, buffer_u16, network_id)
-network_send_packet(Socket, Buffer, buffer_tell(Buffer))
-
+if client() scr_sc_transmission_player_movement(false)
