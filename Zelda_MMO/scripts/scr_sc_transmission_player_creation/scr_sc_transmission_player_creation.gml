@@ -24,7 +24,6 @@ if read
 		for (var i=0; i<=ds_list_size(socket_list)-1; i++)
 		{
 			var _socket2 = socket_list[| i]
-			show_debug_message("mandando paquete a: "+string(_socket2))
 			if _socket2!=socket
 			{
 				scr_sc_transmission_player_creation(false, xx, yy, _socket2, socket)

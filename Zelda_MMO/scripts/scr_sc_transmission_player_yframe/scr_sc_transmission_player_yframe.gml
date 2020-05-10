@@ -2,7 +2,7 @@
 
 var read = argument[0]
 
-var network_command = 0
+var network_command = 5
 
 #region Read packets
 if read
@@ -13,8 +13,8 @@ if read
 		
 	if client()
 	{
-		var Y_frame		=  buffer_read(Buffer, buffer_u8);
-		var _network_id = buffer_read(Buffer, buffer_u16);
+		var Y_frame		=  buffer_read(buffer, buffer_u8);
+		var _network_id = buffer_read(buffer, buffer_u16);
 		with(obj_player_network){
 			if(network_id == _network_id){
 				y_frame = Y_frame;
@@ -28,7 +28,7 @@ if read
 			var _socket2 = socket_list[| i]
 			if _socket2!=socket
 			{
-				scr_sc_transmission_player_sprite(false, buffer, _socket2)
+				scr_sc_transmission_player_yframe(false, buffer, _socket2)
 			}
 		}	
 	}
@@ -49,7 +49,7 @@ else
 	}
 	else
 	{
-		network_send_packet(argument[2],argument[1],6);
+		network_send_packet(argument[2],argument[1],5);
 	}
 }
 #endregion

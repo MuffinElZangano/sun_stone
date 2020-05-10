@@ -12,6 +12,7 @@ switch(type_event)
 		
 	// Client disconnects
 	case network_type_disconnect:
+		msg("disconnected" + string(async_load[? "socket"]))
 		network_destroy(async_load[? "socket"])
 		break
 	

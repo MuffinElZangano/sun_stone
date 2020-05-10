@@ -2,7 +2,7 @@
 
 var read = argument[0]
 
-var network_command = 0
+var network_command = 3
 
 #region Read packets
 if read
@@ -13,8 +13,8 @@ if read
 		
 	if client()
 	{
-		var spr_player =  buffer_read(Buffer, buffer_u16);
-		var _network_id = buffer_read(Buffer, buffer_u16);
+		var spr_player =  buffer_read(buffer, buffer_u16);
+		var _network_id = buffer_read(buffer, buffer_u16);
 		with(obj_player_network){
 			if(network_id == _network_id){
 				sprite = spr_player;
