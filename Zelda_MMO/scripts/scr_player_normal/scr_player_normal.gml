@@ -1,5 +1,4 @@
 sprite = spr_hero_walk;
-scr_sc_transmission_player_sprite(false);
 if(_input_right || _input_left || _input_up || _input_down){
 inputDirection = point_direction(0,0,(_input_right-_input_left),(_input_down-_input_up));
 }
@@ -20,8 +19,12 @@ if (vmove!=0){
 } else {
     moveY+=(spd*vmove-moveY)*decceleration;
 }
+if(inputMagnitude=0){
+	sprite = spr_hero_idle;
+	x_frame = 0;
+}
 
-/*if(_input_atk){ //PLACEHOLDER
-    x_frame = 0;
-    state = "attack";
+if(_input_atk){
+	state = "attack";
+	x_frame = 0; moveX=0; moveY=0;
 }

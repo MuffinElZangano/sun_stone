@@ -1,4 +1,4 @@
-/// @description Declare variables
+///@description Declare variables
 x_frame = 0;
 y_frame = 0;
 sprite = spr_hero_walk;
@@ -9,11 +9,12 @@ moveX = 0;
 moveY = 0;
 inputDirection = 0;
 inputMagnitude = 0;
-state = "idle";
-animating = false;
+network_id = -1;
+state = "normal";
 anim_length = 7;
 
-network_id = -1;
+//myWeapon = instance_create_depth(x,y,depth,obj_weapon);
+//myWeapon.myPlayer = id;
 
 knockX = 0;
 knockY = 0;
@@ -23,4 +24,4 @@ _down   = vk_down;
 _up     = vk_up;
 _right  = vk_right;
 _left   = vk_left;
-_attack = ord("X");
+_attack = ord("X")
