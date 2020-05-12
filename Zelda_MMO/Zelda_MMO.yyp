@@ -127,6 +127,22 @@
             }
         },
         {
+            "Key": "2f055a07-2c41-4b9c-95f4-290e27b81ada",
+            "Value": {
+                "id": "4be9a4c2-d673-4bdf-991b-ec949218db99",
+                "resourcePath": "fonts\\PixelFont\\PixelFont.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "2faf150e-64a0-4e3c-bc72-4ebf2a935ca4",
+            "Value": {
+                "id": "5b6ce26d-1ee2-43f5-8431-4d93d0dc743a",
+                "resourcePath": "sprites\\spr_heroine_idle\\spr_heroine_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "30208d19-dd9b-4f8a-abe7-101c08754411",
             "Value": {
                 "id": "d1824754-0a6f-4aee-adc8-4293e019145b",
@@ -207,6 +223,14 @@
             }
         },
         {
+            "Key": "44ef122b-04a1-41d6-8938-f6b0a91e4b2e",
+            "Value": {
+                "id": "5818ff50-97aa-435d-a481-74c191790924",
+                "resourcePath": "sprites\\spr_hero_jump\\spr_hero_jump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4d1ec820-fd57-4db3-9036-a1aff00e23c1",
             "Value": {
                 "id": "f745228d-c6ae-43ad-8ff6-1cb62f4b0093",
@@ -239,6 +263,14 @@
             }
         },
         {
+            "Key": "570cf514-d6f1-456d-910d-632a180ffca0",
+            "Value": {
+                "id": "cd151796-020e-4b6d-920d-9d1dce19d33f",
+                "resourcePath": "views\\570cf514-d6f1-456d-910d-632a180ffca0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5fdab183-5411-4271-995b-75443527dbf2",
             "Value": {
                 "id": "03a52a9d-30b4-4f34-967c-5cbcdd8bee59",
@@ -252,6 +284,22 @@
                 "id": "b257fc49-5dab-4545-a92d-04062c03bd9f",
                 "resourcePath": "objects\\objPar_enemy\\objPar_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6b890d2b-d879-4472-baf4-4d49ab85dd5f",
+            "Value": {
+                "id": "a257fad7-a35f-4719-bc63-5c631db6c4a8",
+                "resourcePath": "sprites\\spr_heroine_atk\\spr_heroine_atk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6f28f6f9-ed5f-4648-9bf9-e58943ab44d5",
+            "Value": {
+                "id": "01750d56-1542-4815-894c-2802f6d60c34",
+                "resourcePath": "fonts\\EnterCommand\\EnterCommand.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -343,19 +391,27 @@
             }
         },
         {
+            "Key": "94667e16-bd6a-4fcc-a64b-ad5a6f7396dc",
+            "Value": {
+                "id": "c944062b-6ffe-4f52-8c1f-133c6dace037",
+                "resourcePath": "sprites\\spr_shadow\\spr_shadow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "96b022c9-4a5d-4122-ac57-4fd9ebc8d2bc",
+            "Value": {
+                "id": "42178b0f-9f81-4bbd-8e57-155da3dee18f",
+                "resourcePath": "sprites\\spr_heroine_walk\\spr_heroine_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "96bee5bf-1ac6-4344-9742-fc6d18872cf8",
             "Value": {
                 "id": "d17d8ceb-1e81-40a1-8ceb-bd6c55aa2962",
                 "resourcePath": "views\\96bee5bf-1ac6-4344-9742-fc6d18872cf8.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "9951c698-d456-4007-a046-35856b5d986a",
-            "Value": {
-                "id": "9b3da5e1-cab9-42ca-b5a9-926fbd767c65",
-                "resourcePath": "objects\\obj_game\\obj_game.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -372,6 +428,14 @@
                 "id": "34a24b9c-c426-4676-a6b0-bc08e3d39b98",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a3180812-5456-4272-ad6f-d955bb59c51c",
+            "Value": {
+                "id": "e1ea9e44-d87d-40f6-94b5-774449906afa",
+                "resourcePath": "fonts\\PixelFont2\\PixelFont2.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -436,6 +500,14 @@
                 "id": "13b48997-36c1-4d6c-a2fd-19d68a3dd4f4",
                 "resourcePath": "views\\cd1a8a96-813f-4202-8e25-4cb2da843a6c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d68962a2-da33-45d3-ada3-5aa479629d63",
+            "Value": {
+                "id": "91be78e3-81c2-4137-9d07-5da432705f3f",
+                "resourcePath": "fonts\\Comicoro\\Comicoro.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -516,6 +588,14 @@
                 "id": "da07c9d7-95b0-4a4d-87b5-5083aeb33cd8",
                 "resourcePath": "notes\\compatibility_report_280420_1414221422.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "fa6815c4-7e4a-4c4b-aa86-772d2cc06b08",
+            "Value": {
+                "id": "16fcaddb-1cf7-469a-936b-b01f1755c6e4",
+                "resourcePath": "views\\fa6815c4-7e4a-4c4b-aa86-772d2cc06b08.yy",
+                "resourceType": "GMFolder"
             }
         }
     ],

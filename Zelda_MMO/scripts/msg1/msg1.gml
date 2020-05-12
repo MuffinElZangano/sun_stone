@@ -1,1 +1,1 @@
-draw_text(x+24,y,string(argument0))
+draw_text(x+24,y+argument1,string(argument0))

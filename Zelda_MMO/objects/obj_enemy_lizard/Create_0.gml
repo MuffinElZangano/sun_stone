@@ -11,4 +11,4 @@ patrolEndX = x+96;
 patrolEndY = y;
 patrolStartX = x;
 patrolStartY = y;
-vision_radius = 64;
+vision_radius = 56;

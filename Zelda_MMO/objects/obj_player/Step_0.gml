@@ -1,9 +1,12 @@
 /// @description Declare input
+depth = -y-z;
+
 _input_down     = keyboard_check(_down);
 _input_up       = keyboard_check(_up);
 _input_left     = keyboard_check(_left);
 _input_right    = keyboard_check(_right);
 _input_atk      = keyboard_check_pressed(_attack);
+_input_jump		= keyboard_check_pressed(_jump);
 
 ///Frame managing
 switch(inputDirection){
@@ -12,12 +15,7 @@ switch(inputDirection){
     case 180: y_frame = 2; break; //Left  - West
     case 270: y_frame = 3; break; //Down  - South
 }
-//Frame update
-if(x_frame-0.5 < anim_length){
-	x_frame+= 0.5;
-}else{
-	x_frame = 0;
-}
+
 
 scr_sc_transmission_player_xframe(false);
 scr_sc_transmission_player_yframe(false);
