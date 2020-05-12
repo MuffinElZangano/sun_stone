@@ -5,7 +5,7 @@ _input_down     = keyboard_check(_down);
 _input_up       = keyboard_check(_up);
 _input_left     = keyboard_check(_left);
 _input_right    = keyboard_check(_right);
-_input_atk      = keyboard_check_pressed(_attack);
+_input_atk      = keyboard_check_pressed(_key_attack) || mouse_check_button_pressed(_click_atk);
 _input_jump		= keyboard_check_pressed(_jump);
 
 ///Frame managing

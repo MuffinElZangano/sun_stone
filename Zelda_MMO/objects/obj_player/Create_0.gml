@@ -40,9 +40,10 @@ knockX = 0;
 knockY = 0;
 
 //Input declare, placeholder
-_down   = vk_down;
-_up     = vk_up;
-_right  = vk_right;
-_left   = vk_left;
+_down   = ord("S"); //vk_down
+_up     = ord("W"); //vk_up
+_right  = ord("D"); //vk_right
+_left   = ord("A"); //vk_left
 _jump	= vk_space;
-_attack = ord("X")
+_click_atk = mb_left;
+_key_attack = ord("X");
