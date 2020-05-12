@@ -1,8 +1,8 @@
 {
-    "id": "f116b32c-8eb4-4e4f-a6d7-549c2a16e672",
+    "id": "b238ae1f-bcde-4948-b460-c68b3337e891",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "oh_cave_tiles_tileset",
+    "name": "oh_indoors_tiles_tileset",
     "auto_tile_sets": [
         
     ],
@@ -17,8 +17,8 @@
     "out_columns": 40,
     "out_tilehborder": 2,
     "out_tilevborder": 2,
-    "spriteId": "82143c38-aaf5-4ff6-ac05-522136ff6fb2",
-    "sprite_no_export": false,
+    "spriteId": "52a54f2a-a5a8-4652-b4e3-b2643468437d",
+    "sprite_no_export": true,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "tile_animation": {
         "AnimationCreationOrder": null,
