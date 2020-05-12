@@ -12,6 +12,8 @@ inputMagnitude = 0;
 network_id = -1;
 state = "normal";
 anim_length = 7;
+maxHP = 100;
+HP = maxHP;
 
 //myWeapon = instance_create_depth(x,y,depth,obj_weapon);
 //myWeapon.myPlayer = id;

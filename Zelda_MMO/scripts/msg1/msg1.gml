@@ -1,0 +1,1 @@
+draw_text(x+24,y,string(argument0))
