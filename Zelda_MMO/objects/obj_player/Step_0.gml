@@ -16,10 +16,6 @@ switch(inputDirection){
     case 270: y_frame = 3; break; //Down  - South
 }
 
-
-scr_sc_transmission_player_xframe(false);
-scr_sc_transmission_player_yframe(false);
-
 ///State management
 switch(state){
     case "normal":  scr_player_normal(); break;
@@ -31,4 +27,6 @@ Collision_check();
 x+=moveX+knockX;
 y+=moveY+knockY;
 
-if client() scr_sc_transmission_player_movement(false)
+scr_sc_transmission_player_movement(false)
+scr_sc_transmission_player_xframe(false)
+scr_sc_transmission_player_yframe(false)

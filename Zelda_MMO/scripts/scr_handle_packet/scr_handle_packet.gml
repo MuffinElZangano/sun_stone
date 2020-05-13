@@ -1,7 +1,6 @@
 var buff = argument0
 var socket = argument1
 
-
 var command = buffer_read(buff, buffer_u16)
 
 switch command
