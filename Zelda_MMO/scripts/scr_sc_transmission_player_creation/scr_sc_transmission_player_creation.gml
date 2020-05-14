@@ -4,6 +4,7 @@ var read = argument[0]
 
 var network_command = 0
 
+msg("player_creation")
 #region Read packets
 if read
 {

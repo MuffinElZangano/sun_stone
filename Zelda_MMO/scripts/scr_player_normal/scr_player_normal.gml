@@ -35,6 +35,7 @@ if(z > 0){ //On air
 	moveZ -= grav;
 	z += moveZ;
 	sprite = sprJump;
+	scr_sc_transmission_player_xframe(false)
 }else{
 	z = 0;
 	if(_input_jump){
