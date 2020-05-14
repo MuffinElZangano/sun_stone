@@ -1,8 +1,8 @@
-
 /// @description Frame Drawing
 var frame_size = 24;
 var x_offset = 0;
 var y_offset = 0;
+var anim_speed = 0.65;
 
 //Switch anim_length depending on sprite
 switch(sprite){
@@ -20,13 +20,65 @@ switch(sprite){
 
 //Frame update
 if(x_frame-0.5 < anim_length){
-	x_frame+= 0.5;
+	x_frame+= anim_speed;
 }else{
 	x_frame = 0;
 }
+draw_sprite(spr_shadow,0,x,y+10);
+//Sword test
+var sx_offset = 0; var sy_offset = 0;
+switch(y_frame){
+	case 0:	sx_offset = 4; sy_offset = 8; break; //RIGHT
+	case 1: sx_offset = 14; sy_offset = 14; break; //UP
+	case 2: sx_offset = 24; sy_offset = 8; break; //LEFT
+	case 3: sx_offset = 10; sy_offset = 8; break; //DOWN
+}
+if(state="attack"){
+draw_sprite_part(spr_sword,x_frame,floor(x_frame)*frame_size,
+                (frame_size*y_frame),
+                frame_size,frame_size,x-sx_offset,y-sy_offset-z);
+}
 
 //Core sheet drawing
-draw_sprite(spr_shadow,0,x,y+10);
 draw_sprite_part(sprite,x_frame,floor(x_frame)*frame_size,
                 (frame_size*y_frame),
                 frame_size,frame_size,x-x_offset,y-y_offset-z);
+				
+if(flash > 0){
+    flash -= 0.12;
+    shader_set(spr_flash_red);
+    shd_alpha = shader_get_uniform(spr_flash_red,"_alpha");
+    shader_set_uniform_f(shd_alpha, flash);
+    draw_sprite_part(sprite,x_frame,floor(x_frame)*frame_size,
+                (frame_size*y_frame),
+                frame_size,frame_size,x-x_offset,y-y_offset-z);
+    shader_reset();
+}
+
+//PROBANDO CUSTOM COLORS
+				/*
+var c_cape = c_purple;
+var c_hair = c_yellow;
+				
+draw_sprite_part_ext(spr_hero_walk_cape,x_frame,floor(x_frame)*frame_size,
+                (frame_size*y_frame),
+                frame_size,frame_size,x+24,y-y_offset-z,1,1,c_cape,1);
+draw_sprite_part_ext(spr_hero_walk_hair,x_frame,floor(x_frame)*frame_size,
+                (frame_size*y_frame),
+                frame_size,frame_size,x+24,y-y_offset-z,1,1,c_hair,1);
+draw_sprite_part(spr_hero_walk_misc,x_frame,floor(x_frame)*frame_size,
+                (frame_size*y_frame),
+                frame_size,frame_size,x+24,y-y_offset-z);
+				
+var c_cape2 = c_teal;
+var c_hair2 = c_lime;
+				
+draw_sprite_part_ext(spr_hero_walk_cape,x_frame,floor(x_frame)*frame_size,
+                (frame_size*y_frame),
+                frame_size,frame_size,x+48,y-y_offset-z,1,1,c_cape2,1);
+draw_sprite_part_ext(spr_hero_walk_hair,x_frame,floor(x_frame)*frame_size,
+                (frame_size*y_frame),
+                frame_size,frame_size,x+48,y-y_offset-z,1,1,c_hair2,1);
+draw_sprite_part(spr_hero_walk_misc,x_frame,floor(x_frame)*frame_size,
+                (frame_size*y_frame),
+                frame_size,frame_size,x+48,y-y_offset-z);

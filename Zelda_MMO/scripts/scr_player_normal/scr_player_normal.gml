@@ -25,7 +25,7 @@ if(inputMagnitude=0 && z=0){
 	x_frame = 0;
 }
 
-if(_input_atk){
+if(_input_atk && z=0){
 	state = "attack";
 	x_frame = 0; moveX=0; moveY=0;
 }

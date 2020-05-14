@@ -21,6 +21,22 @@ switch(state){
     case "normal":  scr_player_normal(); break;
     case "attack":  scr_player_attack(); break;
 }
+var knock_speed = 8;
+if(hurt){
+        if(hurt_delay > 0) {hurt_delay -= 1;}
+        knockdir = point_direction(dmg_x,dmg_y,x,y);
+        knockX = lengthdir_x(knock_speed,knockdir);
+        knockY = lengthdir_y(knock_speed,knockdir);
+        can_gethurt = false;
+}
+if(hurt_delay = 0){
+        hurt = false;
+        knockdir = 0;
+        knockX = 0;
+        knockY = 0;
+        hurt_delay = 5;
+        can_gethurt = true;
+}
 
 Collision_check();
 

@@ -22,3 +22,17 @@ draw_sprite(spr_shadow,0,x,y+10);
 draw_sprite_part(sprite,x_frame,floor(x_frame)*frame_size,
                 frame_size*y_frame,
                 frame_size,frame_size,x,y);
+
+//Sword test
+var sx_offset = 0; var sy_offset = 0;
+switch(y_frame){
+	case 0:	sx_offset = 4; sy_offset = 8; break; //RIGHT
+	case 1: sx_offset = 14; sy_offset = 14; break; //UP
+	case 2: sx_offset = 24; sy_offset = 8; break; //LEFT
+	case 3: sx_offset = 10; sy_offset = 8; break; //DOWN
+}
+if(sprite == spr_hero_atk || sprite == spr_heroine_atk){
+	draw_sprite_part(spr_sword,x_frame,floor(x_frame)*frame_size,
+                (frame_size*y_frame),
+                frame_size,frame_size,x-sx_offset,y-sy_offset-z);
+}

@@ -33,9 +33,12 @@ anim_length = 7;
 maxHP = 100;
 HP = maxHP;
 
-//myWeapon = instance_create_depth(x,y,depth,obj_weapon);
-//myWeapon.myPlayer = id;
-
+//Hurting
+flash = 0; //Sprite flash when hurt
+can_gethurt = true;
+knockdir = 0;
+hurt_delay = 5;
+hurt = false;
 knockX = 0;
 knockY = 0;
 

@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "23a01cde-787b-4284-9264-ee598e15ae56",
+            "Value": {
+                "id": "9dd26878-4184-4d08-a8a2-0514b87e77ea",
+                "resourcePath": "shaders\\spr_flash_red\\spr_flash_red.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "252f5cdb-3c18-4e0d-8834-ad2445a60159",
             "Value": {
                 "id": "23069cca-c2b9-456f-84d5-d60454c590fa",
@@ -199,6 +207,14 @@
             }
         },
         {
+            "Key": "3d9df1b2-b325-40ee-aab9-bd9557a8db6a",
+            "Value": {
+                "id": "eb910e16-81ef-4754-ba1f-a321e2234139",
+                "resourcePath": "shaders\\spr_flash\\spr_flash.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "3ec91ced-5e18-4d09-9a68-ab981fd51982",
             "Value": {
                 "id": "7f3a7177-fc18-475f-b3c7-6a06372c3887",
@@ -287,6 +303,14 @@
             }
         },
         {
+            "Key": "5c3f93ac-ccac-4a1c-bd70-30035037a8ea",
+            "Value": {
+                "id": "0dbc8d04-aa68-4504-b851-5944fa748896",
+                "resourcePath": "sprites\\spr_hero_walk_hair\\spr_hero_walk_hair.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5fdab183-5411-4271-995b-75443527dbf2",
             "Value": {
                 "id": "03a52a9d-30b4-4f34-967c-5cbcdd8bee59",
@@ -300,6 +324,14 @@
                 "id": "b257fc49-5dab-4545-a92d-04062c03bd9f",
                 "resourcePath": "objects\\objPar_enemy\\objPar_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6a3ddbca-b177-487f-829a-9f4a9568d73a",
+            "Value": {
+                "id": "12ab5632-c683-495f-8219-cfe440809214",
+                "resourcePath": "sprites\\spr_lifebar\\spr_lifebar.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -387,6 +419,14 @@
             "Value": {
                 "id": "93dc3f3c-7352-43d2-9d16-38978f70c305",
                 "resourcePath": "sprites\\oh_cave_tiles\\oh_cave_tiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "84135435-4668-4fc2-9866-cc030c3c9495",
+            "Value": {
+                "id": "b39ec3d0-3692-445b-8ec2-a0c2eba537a7",
+                "resourcePath": "sprites\\spr_hero_walk_cape\\spr_hero_walk_cape.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -551,6 +591,14 @@
             }
         },
         {
+            "Key": "e128a7e8-7b24-4b45-b450-bf6ea0cef01e",
+            "Value": {
+                "id": "b0789828-3a40-4b35-a9d2-3866c64e57f5",
+                "resourcePath": "sprites\\spr_hero_walk_misc\\spr_hero_walk_misc.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "91112d51-b32a-4335-8bb6-de01db7c3e9a",
@@ -583,6 +631,14 @@
             }
         },
         {
+            "Key": "edf72218-86e5-408e-8085-2d1380dd4ea9",
+            "Value": {
+                "id": "e35965a5-c5ef-4cec-bd14-39f4647675b7",
+                "resourcePath": "views\\edf72218-86e5-408e-8085-2d1380dd4ea9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f116b32c-8eb4-4e4f-a6d7-549c2a16e672",
             "Value": {
                 "id": "a1d0400f-e0ce-4d24-8d15-e1e049459790",
@@ -604,6 +660,14 @@
                 "id": "8ad3ef9c-da2a-49a0-9443-954c52fea5f1",
                 "resourcePath": "views\\f42f9fcc-aa6a-4448-8671-b0b12610eef4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f78eb6d8-97de-4edd-9e6a-1df0293bbe22",
+            "Value": {
+                "id": "ed3a35d9-2115-40ed-ab2e-bc9814ce4163",
+                "resourcePath": "sounds\\snd_hurt\\snd_hurt.yy",
+                "resourceType": "GMSound"
             }
         },
         {
