@@ -43,6 +43,7 @@ Collision_check();
 x+=moveX+knockX;
 y+=moveY+knockY;
 
+scr_sc_transmission_player_sprite(false)
 scr_sc_transmission_player_movement(false)
 scr_sc_transmission_player_xframe(false)
 scr_sc_transmission_player_yframe(false)

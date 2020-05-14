@@ -18,6 +18,6 @@ switch command
 	case 4: scr_sc_transmission_player_xframe	(true, buff, socket) break;
 		// Player y_frame
 	case 5: scr_sc_transmission_player_yframe	(true, buff, socket) break;
-		// Player y_frame
+		// Player z_frame
 	case 6: scr_sc_transmission_player_z		(true, buff, socket) break;
 }

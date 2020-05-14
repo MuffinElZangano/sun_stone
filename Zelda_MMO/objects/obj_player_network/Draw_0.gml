@@ -17,12 +17,6 @@ switch(sprite){
 	//case spr_heroine_jump: anim_length = 5;  frame_size = 24; x_offset=4;					break;
 }
 
-//Core sheet drawing
-draw_sprite(spr_shadow,0,x,y+10);
-draw_sprite_part(sprite,x_frame,floor(x_frame)*frame_size,
-                frame_size*y_frame,
-                frame_size,frame_size,x,y);
-
 //Sword test
 var sx_offset = 0; var sy_offset = 0;
 switch(y_frame){
@@ -35,4 +29,20 @@ if(sprite == spr_hero_atk || sprite == spr_heroine_atk){
 	draw_sprite_part(spr_sword,x_frame,floor(x_frame)*frame_size,
                 (frame_size*y_frame),
                 frame_size,frame_size,x-sx_offset,y-sy_offset-z);
+}
+
+//Core sheet drawing
+draw_sprite_part(sprite,x_frame,floor(x_frame)*frame_size,
+                (frame_size*y_frame),
+                frame_size,frame_size,x-x_offset,y-y_offset-z);
+				
+if(flash > 0){
+    flash -= 0.12;
+    shader_set(spr_flash_red);
+    shd_alpha = shader_get_uniform(spr_flash_red,"_alpha");
+    shader_set_uniform_f(shd_alpha, flash);
+    draw_sprite_part(sprite,x_frame,floor(x_frame)*frame_size,
+                (frame_size*y_frame),
+                frame_size,frame_size,x-x_offset,y-y_offset-z);
+    shader_reset();
 }
