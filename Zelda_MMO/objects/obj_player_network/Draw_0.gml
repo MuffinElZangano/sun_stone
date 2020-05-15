@@ -1,5 +1,7 @@
 /// @description Frame Drawing
 var frame_size = 24;
+var x_offset = 0;
+var y_offset = 0;
 
 draw_text(x+10, y, string(network_id))
 
@@ -35,14 +37,3 @@ if(sprite == spr_hero_atk || sprite == spr_heroine_atk){
 draw_sprite_part(sprite,x_frame,floor(x_frame)*frame_size,
                 (frame_size*y_frame),
                 frame_size,frame_size,x-x_offset,y-y_offset-z);
-				
-if(flash > 0){
-    flash -= 0.12;
-    shader_set(spr_flash_red);
-    shd_alpha = shader_get_uniform(spr_flash_red,"_alpha");
-    shader_set_uniform_f(shd_alpha, flash);
-    draw_sprite_part(sprite,x_frame,floor(x_frame)*frame_size,
-                (frame_size*y_frame),
-                frame_size,frame_size,x-x_offset,y-y_offset-z);
-    shader_reset();
-}

@@ -20,4 +20,6 @@ switch command
 	case 5: scr_sc_transmission_player_yframe	(true, buff, socket) break;
 		// Player z_frame
 	case 6: scr_sc_transmission_player_z		(true, buff, socket) break;
+	// Enemy creation
+	case 7: scr_sc_transmission_enemy_creation	(true, buff, socket) break;
 }

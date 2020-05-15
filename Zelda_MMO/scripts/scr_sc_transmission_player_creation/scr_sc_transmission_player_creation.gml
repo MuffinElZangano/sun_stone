@@ -4,7 +4,6 @@ var read = argument[0]
 
 var network_command = 0
 
-msg("player_creation")
 #region Read packets
 if read
 {
@@ -22,14 +21,24 @@ if read
 	}
 	else
 	{
+		// Server reads
 		for (var i=0; i<=ds_list_size(socket_list)-1; i++)
 		{
+			// Set player network id and create object on clients
 			var _socket2 = socket_list[| i]
 			if _socket2!=socket
 			{
 				scr_sc_transmission_player_creation(false, xx, yy, _socket2, socket)
 			}
 			else scr_sc_tranmission_set_network_id(false, _socket2, socket)
+			
+			// Create enemies for client
+			var enemy_list = enemies_list[| 0]
+			var _net_id = enemy_list[| 0]
+			var xx = enemy_list[| 1]
+			var yy = enemy_list[| 2]
+			
+			scr_sc_transmission_enemy_creation(false, xx, yy, _net_id, socket)
 		}
 	}
 }
