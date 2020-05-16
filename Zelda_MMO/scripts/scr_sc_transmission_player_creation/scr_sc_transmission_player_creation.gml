@@ -33,7 +33,7 @@ if read
 			else scr_sc_tranmission_set_network_id(false, _socket2, socket)
 			
 			// Create enemies for client
-			var enemy_list = enemies_list[| 0]
+			var enemy_list = Enemies_List[| 0]
 			var _net_id = enemy_list[| 0]
 			var xx = enemy_list[| 1]
 			var yy = enemy_list[| 2]
