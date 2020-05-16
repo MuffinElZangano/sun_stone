@@ -741,6 +741,14 @@
                 "resourcePath": "views\\fa6815c4-7e4a-4c4b-aa86-772d2cc06b08.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "ffcf057c-8143-435c-9087-6067c101b91e",
+            "Value": {
+                "id": "8e7cd002-0afc-4ee1-bd5b-122058c63d9a",
+                "resourcePath": "scripts\\scr_s_enemy_step_event\\scr_s_enemy_step_event.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
@@ -760,7 +768,8 @@
         "3ec91ced-5e18-4d09-9a68-ab981fd51982",
         "2c0aa866-73a4-43ea-b1d7-adc353474be5",
         "5fdab183-5411-4271-995b-75443527dbf2",
-        "608207a9-f08b-4235-905b-b1103fa03b71"
+        "608207a9-f08b-4235-905b-b1103fa03b71",
+        "ffcf057c-8143-435c-9087-6067c101b91e"
     ],
     "tutorial": ""
 }
