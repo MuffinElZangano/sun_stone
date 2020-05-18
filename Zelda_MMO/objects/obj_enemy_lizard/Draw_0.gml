@@ -10,3 +10,5 @@ draw_sprite_part(spr_lizard,x_frame,floor(x_frame)*frame_size,
 draw_sprite_part(spr_lizard,x_frame,floor(x_frame)*frame_size,
                 frame_size*(y_frame+4),
                 frame_size,frame_size,x-8,y-8);
+				
+scr_hitflash_white(spr_lizard,8,8,frame_size);

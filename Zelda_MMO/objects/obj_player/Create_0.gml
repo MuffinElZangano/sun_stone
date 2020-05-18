@@ -21,6 +21,7 @@ if(sex=="Female"){
 
 sprite = sprWalk;
 spd = 2;
+h = noone
 acceleration = 0.2;
 moveX = 0;
 moveY = 0;

@@ -14,4 +14,6 @@ patrolStartX = x;
 patrolStartY = y;
 vision_radius = 56;
 
+flash = 0;
+
 network_id = -1

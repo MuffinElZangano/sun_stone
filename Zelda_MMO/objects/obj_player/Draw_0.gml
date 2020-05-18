@@ -44,16 +44,7 @@ draw_sprite_part(sprite,x_frame,floor(x_frame)*frame_size,
                 (frame_size*y_frame),
                 frame_size,frame_size,x-x_offset,y-y_offset-z);
 				
-if(flash > 0){
-    flash -= 0.12;
-    shader_set(spr_flash_red);
-    shd_alpha = shader_get_uniform(spr_flash_red,"_alpha");
-    shader_set_uniform_f(shd_alpha, flash);
-    draw_sprite_part(sprite,x_frame,floor(x_frame)*frame_size,
-                (frame_size*y_frame),
-                frame_size,frame_size,x-x_offset,y-y_offset-z);
-    shader_reset();
-}
+scr_hitflash_red(sprite,x_offset,(y_offset+z),frame_size);
 
 //PROBANDO CUSTOM COLORS
 				/*

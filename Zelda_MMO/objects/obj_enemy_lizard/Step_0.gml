@@ -57,11 +57,5 @@ if(x_frame-0.5 < anim_length){
 }else{
 	x_frame = 0;
 }
-/*switch(dir){
-    case 0  :	y_frame = 0; anim_length = 1; break; //Right - East
-    case 90 :	y_frame = 1; anim_length = 3; break; //Up    - North
-    case 180:	y_frame = 2; anim_length = 1; break; //Left  - West
-    case 270:	y_frame = 3; anim_length = 3; break; //Down  - South
-}*/
 
 mp_potential_step_object(targetX,targetY,spd,obj_solid);
