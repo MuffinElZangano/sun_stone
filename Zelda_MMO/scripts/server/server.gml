@@ -1,1 +1,5 @@
-return Hosting
+function server() {
+	return Hosting
+
+
+}

@@ -1,1 +1,5 @@
-return !Hosting
+function client() {
+	return !Hosting
+
+
+}
