@@ -1,0 +1,11 @@
+This game is being developed by DigitalColony in collaboration with r/INAT
+
+Graphics: Solarus Free Resource Art Pack (cc-by-sa 4.0 and GPLv3)
+Sound: Original SFX by Sun Stone team
+
+A game by Benjamin Mülchi and the Sun Stone Development team.
+
+------------------------
+Contact
+Discord: BenMulchi#7183
+itch.io/muffinelzangano
