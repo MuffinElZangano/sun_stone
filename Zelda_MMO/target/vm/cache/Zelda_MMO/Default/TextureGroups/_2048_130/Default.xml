@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureGroup>
+  <texture scale="0" mipsToGenerate="0">Default_0.png</texture>
+  <tpe x="4" y="4" tpage="Default_0" entry="0">oh_cave_tiles_tileset_output_tileset.tpe</tpe>
+  <tpe x="4" y="812" tpage="Default_0" entry="1">oh_indoors_tiles_tileset_output_tileset.tpe</tpe>
+  <tpe x="810" y="2" tpage="Default_0" entry="2">oh_cave_tiles_6655ba6f-5e2e-4001-8725-38f98ce8a6a9.tpe</tpe>
+  <tpe x="2" y="1618" tpage="Default_0" entry="3">spr_lizard_711986d1-9b7c-47fd-9831-851c96ee8311.tpe</tpe>
+  <tpe x="1289" y="2" tpage="Default_0" entry="4">spr_sword_27cb4f8b-2d38-472a-b607-92c4a335894d.tpe</tpe>
+  <tpe x="1289" y="236" tpage="Default_0" entry="5">spr_heroine_atk_1d36d23b-421e-4f0b-9168-7669c79d420d.tpe</tpe>
+  <tpe x="381" y="1618" tpage="Default_0" entry="6">spr_hero_atk_563f85e8-8dd0-4c98-a30f-4defb5e53c7f.tpe</tpe>
+  <tpe x="1762" y="2" tpage="Default_0" entry="7">PixelFont_PixelFont.tpe</tpe>
+  <tpe x="1759" y="236" tpage="Default_0" entry="8">spr_hero_walk_holding_306e3222-9229-4035-8100-059398613cf5.tpe</tpe>
+  <tpe x="1289" y="464" tpage="Default_0" entry="9">spr_hero_walk_e0f6950f-beae-4cd2-b468-56ee3ab66c86.tpe</tpe>
+  <tpe x="381" y="1846" tpage="Default_0" entry="10">spr_hero_walk_hair_ea6c07c4-d21b-4176-a463-0b1557b178c2.tpe</tpe>
+  <tpe x="1759" y="374" tpage="Default_0" entry="11">spr_hero_walk_misc_c2c754dc-7bb7-42bf-bda7-3a970e2ba4ff.tpe</tpe>
+  <tpe x="570" y="1846" tpage="Default_0" entry="12">spr_hero_jump_61829cdc-451d-4779-bfdf-8adb93f62a0c.tpe</tpe>
+  <tpe x="1478" y="464" tpage="Default_0" entry="13">spr_hero_walk_cape_feb21ecb-efb2-4d2f-a3c7-731b382cad20.tpe</tpe>
+  <tpe x="1664" y="509" tpage="Default_0" entry="14">spr_heroine_walk_706b2811-5d11-4b5d-b98d-8114f2c39e30.tpe</tpe>
+  <tpe x="1858" y="509" tpage="Default_0" entry="15">Comicoro_Comicoro.tpe</tpe>
+  <tpe x="718" y="1846" tpage="Default_0" entry="16">EnterCommand_EnterCommand.tpe</tpe>
+  <tpe x="1478" y="591" tpage="Default_0" entry="17">PixelFont2_PixelFont2.tpe</tpe>
+  <tpe x="2022" y="2" tpage="Default_0" entry="18">spr_hero_idle_eb17944a-cd24-4ae6-99e0-7f34966efb84.tpe</tpe>
+  <tpe x="1947" y="374" tpage="Default_0" entry="19">spr_heroine_idle_c8a1c93c-d0e7-473f-a36d-58fbb13a868d.tpe</tpe>
+  <tpe x="2" y="1992" tpage="Default_0" entry="20">spr_lifebar_76d3ad25-55f0-40d2-b3c6-226f0babd6c3.tpe</tpe>
+  <tpe x="2" y="2010" tpage="Default_0" entry="21">spr_solid_1e6c827e-ea4c-496a-a8eb-28e5e098c199.tpe</tpe>
+  <tpe x="381" y="1983" tpage="Default_0" entry="22">spr_lifebar_9f077a89-afed-4d80-a409-3a82e2c5362a.tpe</tpe>
+  <tpe x="1664" y="464" tpage="Default_0" entry="23">spr_cam_7b5161c4-62c5-4ace-874c-544e09a8dd22.tpe</tpe>
+  <tpe x="718" y="1978" tpage="Default_0" entry="24">spr_lizard_preview_1bdf237f-cdc8-4a78-ac40-a63cb1835a2a.tpe</tpe>
+  <tpe x="1610" y="591" tpage="Default_0" entry="25">spr_box_2810466d-6641-42f8-891f-a0f95b25cc44.tpe</tpe>
+  <tpe x="810" y="646" tpage="Default_0" entry="26">spr_box_04dceed3-786b-4ffe-973a-cfe352d545f4.tpe</tpe>
+  <tpe x="810" y="723" tpage="Default_0" entry="27">spr_box_dcc27fd5-f3df-48b4-ac88-e07cc66a42fe.tpe</tpe>
+  <tpe x="1289" y="602" tpage="Default_0" entry="28">spr_player_preview_da4caa43-a41a-4fec-a710-f1c0c760cdd8.tpe</tpe>
+  <tpe x="1610" y="628" tpage="Default_0" entry="29">spr_hitbox_5c15d88f-55d2-4781-a354-5bc33e56e898.tpe</tpe>
+  <tpe x="850" y="646" tpage="Default_0" entry="30">spr_hero_mask_09961a4b-9268-4ab8-a595-c79a07989357.tpe</tpe>
+  <tpe x="1762" y="134" tpage="Default_0" entry="31">spr_shadow_7fd46497-be00-4bf3-a592-19fd8a5cb09a.tpe</tpe>
+</TextureGroup>

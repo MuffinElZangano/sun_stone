@@ -8,6 +8,7 @@ for (var i=0; i<ds_list_size(Enemies_List); i++)
 	var targetY = 0;
 	
 	#region Debug
+	/*
 	//msg2("myid", enemy_list[| 0])
 	//msg2("name", enemy_list[| 1])
 	//msg2("level", enemy_list[| 2])
@@ -27,6 +28,7 @@ for (var i=0; i<ds_list_size(Enemies_List); i++)
 	//msg2("patrolendy", enemy_list[| 16])
 	msg2("targetx", enemy_list[| 17])
 	msg2("targety", enemy_list[| 18])
+	*/
 	#endregion
 	
 	// Hacer patrullar o perseguir a los player

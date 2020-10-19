@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TPE>
+  <w>32</w>
+  <h>28</h>
+  <name>Default</name>
+  <hasAlpha>True</hasAlpha>
+  <hash>384104739</hash>
+  <xoffset>0</xoffset>
+  <yoffset>4</yoffset>
+  <cropWidth>32</cropWidth>
+  <cropHeight>28</cropHeight>
+  <ow>32</ow>
+  <oh>32</oh>
+  <image>spr_cam_7b5161c4-62c5-4ace-874c-544e09a8dd22.tpe.png</image>
+</TPE>

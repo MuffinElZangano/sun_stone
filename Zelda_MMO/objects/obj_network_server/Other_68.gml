@@ -22,6 +22,6 @@ switch(type_event)
         var buffer = async_load[? "buffer"]
         var socket = async_load[? "id"]
 		
-		scr_handle_packet(buffer, socket)
+		handle_packet(buffer, socket)
         break
 }
