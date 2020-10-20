@@ -14,6 +14,4 @@ function scr_hitflash_white(argument0, argument1, argument2, argument3) {
 	                argument3,argument3,x-argument1,y-argument2);
 	    shader_reset();
 	}
-
-
 }

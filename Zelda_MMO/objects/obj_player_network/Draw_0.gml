@@ -3,7 +3,19 @@ var frame_size = 24;
 var x_offset = 0;
 var y_offset = 0;
 
-draw_text(x+10, y, string(network_id))
+draw_text(x+10, y-20, string(network_id))
+
+draw_set_halign(fa_middle);
+draw_set_colour(c_black);
+draw_text(x+11, y-10, username);
+draw_text(x+10, y-11, username);
+draw_text(x+9, y-10, username);
+draw_text(x+10, y-9, username);
+
+draw_set_colour(c_white);
+draw_text(x+10, y-10, username);
+
+draw_set_halign(fa_left);
 
 //Switch anim_length depending on sprite
 switch(sprite){

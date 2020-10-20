@@ -1,7 +1,9 @@
 ///@description Declare variables
+
 x_frame = 0;
 y_frame = 0;
-sex = "Female";
+sex = "Male";
+username = get_string("Username?","");
 
 z = 0;
 

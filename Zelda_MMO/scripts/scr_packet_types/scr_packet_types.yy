@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "server",
+  "name": "scr_packet_types",
   "tags": [],
   "resourceType": "GMScript",
 }

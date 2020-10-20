@@ -1,2 +1,1 @@
-/// @description 
-//buffer_delete(Buffer)
+ds_map_destroy(socket_map);

@@ -1,5 +1,0 @@
-function server() {
-	return Hosting
-
-
-}

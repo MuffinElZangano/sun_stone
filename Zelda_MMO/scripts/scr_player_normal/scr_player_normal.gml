@@ -36,7 +36,6 @@ function scr_player_normal() {
 		moveZ -= grav;
 		z += moveZ;
 		sprite = sprJump;
-		scr_sc_transmission_player_z(false)
 	}else{
 		z = 0;
 		if(_input_jump){
@@ -46,6 +45,4 @@ function scr_player_normal() {
 		    moveZ = 0;
 		}
 	}
-
-
 }

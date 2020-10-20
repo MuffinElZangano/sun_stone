@@ -42,3 +42,10 @@ Collision_check();
 
 x+=moveX+knockX;
 y+=moveY+knockY;
+
+if(Connected) {
+	if(network_id == -1) {
+		network_id = NetId;
+	}
+	make_player_packet(Socket,true, network_id,sprite,x,y,z,x_frame,y_frame,username).head("playerUpdate").serialize().send();
+}

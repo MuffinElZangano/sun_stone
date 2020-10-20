@@ -1,5 +1,0 @@
-function client() {
-	return !Hosting
-
-
-}
